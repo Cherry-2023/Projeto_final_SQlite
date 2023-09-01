@@ -75,3 +75,4 @@ SELECT
 FROM cliente_conta AS cc
 JOIN cliente AS c ON cc.id_cliente = c.id
 JOIN conta AS ccc ON cc.id_conta = ccc.id;
+
